@@ -1,6 +1,6 @@
-def enrollment(name="", last_name='', age=0, tuition_balance=0.0, is_active=False):
-    name = input("Enter student first name: ")
-    last_name = input("Enter student last name: ")
+def enrollment():
+    name = str(input("Enter student first name: "))
+    last_name = str(input("Enter student last name: "))
     age = int(input("Enter student age: "))
     tuition_balance = float(input("Enter tuition balance: "))
     
